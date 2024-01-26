@@ -49,7 +49,11 @@ const routes: Routes = [
     },{
     component: CartPageComponent,
     path:'cart-page'
-  }
+  },
+  {
+    component: CartPageComponent ,
+    path : 'checkout'
+  } 
 ];
 
 @NgModule({

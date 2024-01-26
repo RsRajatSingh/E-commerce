@@ -23,5 +23,18 @@
     padding-bottom: 15px;
 }
 .summary{
-    margin-top: 20;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.summary h3{
+    text-align: center;
+}
+.summary ul{
+    list-style-type: none;
+    padding: 5%;
+    border: 1px solid #ddd;
+}
+.summary ul li{
+    display: flex;
+    justify-content: space-between;
 }
